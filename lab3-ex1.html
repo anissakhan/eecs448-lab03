@@ -1,7 +1,7 @@
 <!--
 Anissa Khan
 KU ID: 2567413
-EECS448 Lab3
+EECS448 Lab3 Ex1
 9/23/19
 
 file name: lab3-ex1.html
@@ -15,14 +15,21 @@ file name: lab3-ex1.html
 	</head>
 
 	<body>
+        
         <strong>Password Validator</strong>
         <br>
+        Instructions: Enter your password two times.
         <br>
+        Enter Password: 
         <input type="text" id="pw1"> 
-               In this sentence I have 
-               <br> 
-               <u>underlined words</u>, <i>italicized words</i>, 
-               <br>
-               and <b>bold words</b>.	
+        <br>
+        Re-enter Password:
+        <input type="text" id="pw2">
+        <span id="result"></span>
+        <button onclick="alertFunc()">validate</button>
+        
+
+        <script src="lab3-ex1-khan.js"></script>
+        
 	</body>
 </html>
