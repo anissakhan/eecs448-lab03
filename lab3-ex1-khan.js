@@ -1,5 +1,4 @@
 /* Anissa Khan
-KU ID: 2567413
 EECS448 Lab 3 Ex1
 9/23/19 */
 
