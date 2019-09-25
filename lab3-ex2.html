@@ -1,0 +1,65 @@
+<!--
+Anissa Khan
+KU ID: 2567413
+EECS448 Lab3 Ex2
+9/23/19
+
+file name: lab3-ex2.html
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+        <title>My Photos</title>
+        <style>
+
+                body {
+                    background-color:rgb(158, 148, 170);
+                }
+
+                #headerText {
+                    display: block;
+                    text-align: center;
+                    font-size: 34pt;
+                    color: rgb(54, 43, 63);
+                }
+                
+                img {
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  /*height: 450px;
+                  width: 600px;*/
+                }
+
+                #buttonPrev , #buttonNext {
+                    display: inline-block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                #container {
+                    text-align: center;
+                }
+
+        </style>
+	</head>
+
+	<body>
+        
+        <strong id="headerText">Iceland and a cat</strong>
+        <br>
+        <img src="IMG_4000.jpg" id="image1" width="50%" height="30%">
+        
+        <br>
+        <div id="container">
+            <button id="buttonPrev">previous</button>
+            <!--<button id="buttonNext" onclick="nextImage()">next</button>-->
+            <button id="buttonNext">next</button>
+        </div>
+        
+        <script src="lab3-ex2-khan.js"></script>
+        
+	</body>
+</html>

@@ -47,3 +47,23 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })
 })*/
+
+//below code doesn't work
+/*document.addEventListener("DOMContentLoaded", () => {
+    console.log("started...");
+    let pw1Local=0;
+    let pw2Local=0;
+
+    pw1Local=document.querySelector("#pw1");
+    pw2Local=document.querySelector("#pw2");
+
+    document.getElementById("button1").addEventListener("click", () => {
+        if(pw1Local.value!==pw2Local.value)
+        {
+            alert("Error: Passwords don't match.");
+        }
+        else
+        {
+            alert("Success! Passwords Match!");
+        }
+    })*/
