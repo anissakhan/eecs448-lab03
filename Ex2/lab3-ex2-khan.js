@@ -5,9 +5,9 @@ EECS448 Lab 3 Ex2
 //FileName: lab3-ex2-khan.js
 
 let images=new Array(5);
-images[0]="IMG_4000.jpg";
-images[1]="IMG_5388.jpg";
-images[2]="IMG_5047.jpg";
+images[0]="IMG_4000.JPG";
+images[1]="IMG_5388.JPG";
+images[2]="IMG_5047.JPG";
 images[3]="IMG_0572.JPG";
 images[4]="IMG_0509.JPG";
 
